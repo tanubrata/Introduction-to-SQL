@@ -1,0 +1,59 @@
+SQL> @Homework5_Tanubrata_Dey.sql
+
+NAME                           STREET_NAME                                                                                                                                                              
+------------------------------ ------------------------------                                                                                                                                           
+Sailor Bob                     Lurting Ave                                                                                                                                                              
+Wonder inc                     Hunts Point                                                                                                                                                              
+Huntz                          Catsup Road                                                                                                                                                              
+Taste Treat                    Park Ave                                                                                                                                                                 
+Crunchy                        East 23 Street                                                                                                                                                           
+
+
+COUNT(V.NAME)                                                                                                                                                                                           
+-------------                                                                                                                                                                                           
+            5                                                                                                                                                                                           
+
+
+NAME                                                                                                                                                                                                    
+--------------------                                                                                                                                                                                    
+wonder bread                                                                                                                                                                                            
+so-so bread                                                                                                                                                                                             
+raisin bread                                                                                                                                                                                            
+death by chocolate                                                                                                                                                                                      
+death-by-strawberry                                                                                                                                                                                     
+death by custard                                                                                                                                                                                        
+apple pie                                                                                                                                                                                               
+blueberry pie                                                                                                                                                                                           
+toad cheese pie                                                                                                                                                                                         
+frozen cheese cake                                                                                                                                                                                      
+frozen normal cake                                                                                                                                                                                      
+
+11 rows selected.
+
+
+FULL_NAME                                                                                                                                                                                               
+---------------------------------                                                                                                                                                                       
+Hillary Clinton                                                                                                                                                                                         
+Kelly The Cashier                                                                                                                                                                                       
+
+
+NAME                           CONTACT_NAME                                                                                                                                                             
+------------------------------ --------------------                                                                                                                                                     
+Soda Forever                   Olive Shu                                                                                                                                                                
+Mr Clean                       Yen Ho                                                                                                                                                                   
+Huntz                          Richard Lee                                                                                                                                                              
+
+
+FNAME            LNAME                SALARY                                                                                                                                                            
+---------------- ---------------- ----------                                                                                                                                                            
+Lady             Gaga                 100000                                                                                                                                                            
+
+
+NAME                 INSTORE_PRICE_PER_ITEM                                                                                                                                                             
+-------------------- ----------------------                                                                                                                                                             
+swamp water                             .99                                                                                                                                                             
+windex imitation                       3.99                                                                                                                                                             
+store brand shampoo                    2.99                                                                                                                                                             
+plastic forks                          4.99                                                                                                                                                             
+
+SQL> spool off

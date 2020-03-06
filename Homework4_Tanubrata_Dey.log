@@ -1,0 +1,131 @@
+SQL> @Homework4_Tanubrata_Dey.sql
+
+   MOVIEID TITLE                                                                                                                                      
+---------- --------------------------------------------------                                                                                         
+         7 Pittsburgh Escape                                                                                                                          
+2147483662 Who Kissed the Girl?                                                                                                                       
+        17 Truth Be Told                                                                                                                              
+        18 Spanish Garden                                                                                                                             
+2147483648 Forest Gump                                                                                                                                
+2147483649 English Patient                                                                                                                            
+2147483651 Tainted Pencils                                                                                                                            
+        40 Lefty Syndrome                                                                                                                             
+2147483654 Bridesmaids                                                                                                                                
+2147483659 The Girl with the Bad Tattoo                                                                                                               
+2147483660 War Hamster                                                                                                                                
+2147483661 Edward Forkhands                                                                                                                           
+2147483666 The Last Minutes                                                                                                                           
+2147483668 Troy                                                                                                                                       
+2147483669 Prince of Persia                                                                                                                           
+2147483670 Blood Diamond                                                                                                                              
+2147483671 The Annointed                                                                                                                              
+2147483672 The Reigning King                                                                                                                          
+2147483673 The Complete Repent                                                                                                                        
+
+19 rows selected.
+
+
+TITLE                                                                                                                                                 
+--------------------------------------------------                                                                                                    
+The Tale of Two Tacos                                                                                                                                 
+The College Dropout                                                                                                                                   
+Troy                                                                                                                                                  
+The Annointed                                                                                                                                         
+
+
+    ANSWER                                                                                                                                            
+----------                                                                                                                                            
+        37                                                                                                                                            
+
+
+COUNT(THEATREID)                                                                                                                                      
+----------------                                                                                                                                      
+              12                                                                                                                                      
+
+
+COUNT(THEATREID)                                                                                                                                      
+----------------                                                                                                                                      
+              12                                                                                                                                      
+
+
+MOVIEPERSONID FIRSTNAME       LASTNAME                                                                                                                
+------------- --------------- ---------------                                                                                                         
+           17 Cynthia         Balmick                                                                                                                 
+            0 Ryan            Balmick                                                                                                                 
+   2147483652 Alicja          Feitzinger                                                                                                              
+           38 Alan            Davydov                                                                                                                 
+   2147483654 Emma            Stone                                                                                                                   
+   2147483655 Channing        Tatum                                                                                                                   
+   2147483661 Francesca       Carey                                                                                                                   
+
+7 rows selected.
+
+
+NAME                           NEWNAME                                                                                                                
+------------------------------ ------------------------------                                                                                         
+Best Theatre                   Best                                                                                                                   
+MeowMeow Theatre               MeowMeow                                                                                                               
+Nacho Cheese Theatre           Nacho Cheese                                                                                                           
+Wacky Theatre                  Wacky                                                                                                                  
+Worst Theatre                  Worst                                                                                                                  
+Watch the Theatre              Watch the                                                                                                              
+Satans Theatre                 Satans                                                                                                                 
+Bond...James Bond Theatre      Bond...James Bond                                                                                                      
+Golden Ratio Theatre           Golden Ratio                                                                                                           
+Panda Theatre                  Panda                                                                                                                  
+Snake Theatre                  Snake                                                                                                                  
+Platypus Theatre               Platypus                                                                                                               
+Sonix Theatre                  Sonix                                                                                                                  
+Scorpion Theatre               Scorpion                                                                                                               
+Thousand Stars Theatre         Thousand Stars                                                                                                         
+
+15 rows selected.
+
+
+ THEATREID NAME                           OWNER                          LOCATIONID                                                                   
+---------- ------------------------------ ------------------------------ ----------                                                                   
+         1 Junkyard                       Marian                                  1                                                                   
+         2 Valencia                       Marian                                  3                                                                   
+      3131 Rome                           Marian                                  2                                                                   
+         4 Moon                           Tony                                    4                                                                   
+         5 Sky                            Tony                                    5                                                                   
+         6 Earthen                        Tony                                    6                                                                   
+         7 Home                           Barukh                                  7                                                                   
+    135165 Galaxy                         Solina                            1236568                                                                   
+    135172 PapaBear                       Alleene                         111212323                                                                   
+    135152 Dunkin                         Bchoy                           142143332                                                                   
+    135159 Wescott                        Clarence                          1236564                                                                   
+    135160 Eastern                        Clarence                          1236564                                                                   
+    135161 Southerly                      Clarence                          1236564                                                                   
+    135173 MamaBear                       Lacaba                          111212324                                                                   
+    135174 Cubbie                         Alleene Lacaba                  111212325                                                                   
+
+15 rows selected.
+
+
+ THEATREID NAME                           OWNER                          LOCATIONID                                                                   
+---------- ------------------------------ ------------------------------ ----------                                                                   
+         1 Junkyard                       Marian                                  1                                                                   
+         2 Valencia                       Marian                                  3                                                                   
+      3131 Rome                           Marian                                  2                                                                   
+         4 Moon                           Tony                                    4                                                                   
+         5 Sky                            Tony                                    5                                                                   
+         6 Earthen                        Tony                                    6                                                                   
+         7 Home                           Barukh                                  7                                                                   
+    135165 Galaxy                         Solina                            1236568                                                                   
+    135172 PapaBear                       Alleene                         111212323                                                                   
+    135152 Dunkin                         Bchoy                           142143332                                                                   
+    135159 Wescott                        Clarence                          1236564                                                                   
+    135160 Eastern                        Clarence                          1236564                                                                   
+    135161 Southerly                      Clarence                          1236564                                                                   
+    135173 MamaBear                       Lacaba                          111212324                                                                   
+    135174 Cubbie                         Alleene Lacaba                  111212325                                                                   
+
+15 rows selected.
+
+
+Full Name                                                                                                                                             
+-------------------------------------------------------------                                                                                         
+Richard Farley                                                                                                                                        
+
+SQL> spool off

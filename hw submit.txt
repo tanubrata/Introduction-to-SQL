@@ -1,0 +1,31 @@
+cd C:\Users\tanub\Desktop\csci232_homework
+
+scp Homework4_Tanubrata_Dey.sql Tanubrata.Dey61@eniac.cs.hunter.cuny.edu:~/csci232_homework/
+
+ssh Tanubrata.Dey61@eniac.cs.hunter.cuny.edu
+
+ssh Tanubrata.Dey61@cslab10.cs.hunter.cuny.edu
+
+cd csci232_homework/
+
+rlsqlplus Tanubrata_Dey61/Souronil12@$ORA
+
+spool Homework4_Tanubrata_Dey.log
+
+@Homework4_Tanubrata_Dey.sql
+
+spool off
+
+exit
+
+exit
+
+scp Tanubrata.Dey61@cslab10:~/csci232_homework/Homework4_Tanubrata_Dey.log ./csci232_homework/
+
+exit
+
+scp Tanubrata.Dey61@eniac.cs.hunter.cuny.edu:~/csci232_homework/Homework4_Tanubrata_Dey.log ./
+
+ssh Tanubrata.Dey61@eniac.cs.hunter.cuny.edu
+
+rm csci232_homework/Homework4_Tanubrata_Dey.*

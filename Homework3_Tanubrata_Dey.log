@@ -1,0 +1,178 @@
+SQL> @Homework3_Tanubrata_Dey.sql
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ EMP_ID                                    NOT NULL NUMBER(5)
+ FNAME                                     NOT NULL VARCHAR2(20 CHAR)
+ LNAME                                     NOT NULL VARCHAR2(20 CHAR)
+ START_DATE                                NOT NULL DATE
+ END_DATE                                           DATE
+ SUPERIOR_EMP_ID                                    NUMBER(5)
+ DEPT_ID                                            NUMBER(5)
+ TITLE                                              VARCHAR2(20 CHAR)
+ ASSIGNED_BRANCH_ID                                 NUMBER(5)
+
+
+FNAME                LNAME                    EMP_ID SUPERIOR_EMP_ID                                                                                  
+-------------------- -------------------- ---------- ---------------                                                                                  
+Michael              Smith                         8                                                                                                  
+Susan                Barker                        9               8                                                                                  
+Robert               Tyler                        10               8                                                                                  
+Susan                Hawthorne                    11              10                                                                                  
+John                 Gooding                      12              11                                                                                  
+Helen                Fleming                      13              11                                                                                  
+Chris                Tucker                       14              13                                                                                  
+Sarah                Parker                       15              13                                                                                  
+Jane                 Grossman                     16              13                                                                                  
+Paula                Roberts                      17              11                                                                                  
+Thomas               Ziegler                      18              17                                                                                  
+Samantha             Jameson                      19              17                                                                                  
+John                 Blake                        20              11                                                                                  
+Cindy                Mason                        21              20                                                                                  
+Frank                Portman                      22              20                                                                                  
+Theresa              Markham                      23              11                                                                                  
+Beth                 Fowler                       24              23                                                                                  
+Rick                 Tulman                       25              23                                                                                  
+
+18 rows selected.
+
+
+COUNT(FNAME)                                                                                                                                          
+------------                                                                                                                                          
+          18                                                                                                                                          
+
+ Name                                                                                Null?    Type
+ ----------------------------------------------------------------------------------- -------- --------------------------------------------------------
+ DEPT_ID                                                                             NOT NULL NUMBER(5)
+ NAME                                                                                NOT NULL VARCHAR2(20 CHAR)
+
+
+NAME                                                                                                                                                  
+--------------------                                                                                                                                  
+Operations                                                                                                                                            
+Loans                                                                                                                                                 
+Administration                                                                                                                                        
+
+
+COUNT(NAME)                                                                                                                                           
+-----------                                                                                                                                           
+          3                                                                                                                                           
+
+
+   CUST_ID AVAIL_BALANCE                                                                                                                              
+---------- -------------                                                                                                                              
+         1       1057.75                                                                                                                              
+         1           500                                                                                                                              
+         1          3000                                                                                                                              
+         2       2258.02                                                                                                                              
+         2           200                                                                                                                              
+         3       1057.75                                                                                                                              
+         3        2212.5                                                                                                                              
+         4        534.12                                                                                                                              
+         4        767.77                                                                                                                              
+         4       5487.09                                                                                                                              
+         5       2237.97                                                                                                                              
+         6        122.37                                                                                                                              
+         7          5000                                                                                                                              
+         8       3487.19                                                                                                                              
+         8        387.99                                                                                                                              
+         9        125.67                                                                                                                              
+         9          1500                                                                                                                              
+        10             0                                                                                                                              
+
+18 rows selected.
+
+
+COUNT(AVAIL_BALANCE)                                                                                                                                  
+--------------------                                                                                                                                  
+                  18                                                                                                                                  
+
+
+   CUST_ID NAME                                     STATE_ID   INCORP_DA                                                                              
+---------- ---------------------------------------- ---------- ---------                                                                              
+        10 Chilton Engineering                      12-345-678 01-MAY-95                                                                              
+        11 Northeast Cooling Inc.                   23-456-789 01-JAN-01                                                                              
+        12 Superior Auto Body                       34-567-890 30-JUN-02                                                                              
+        13 AAA Insurance Inc.                       45-678-901 01-MAY-99                                                                              
+
+
+NAME                                                                                                                                                  
+----------------------------------------                                                                                                              
+Chilton Engineering                                                                                                                                   
+Northeast Cooling Inc.                                                                                                                                
+Superior Auto Body                                                                                                                                    
+AAA Insurance Inc.                                                                                                                                    
+
+
+    EMP_ID FNAME                LNAME                START_DAT END_DATE  SUPERIOR_EMP_ID    DEPT_ID TITLE                ASSIGNED_BRANCH_ID           
+---------- -------------------- -------------------- --------- --------- --------------- ---------- -------------------- ------------------           
+         8 Michael              Smith                22-JUN-05                                    3 President                             1           
+         9 Susan                Barker               12-SEP-06                         8          3 Vice President                        1           
+        10 Robert               Tyler                09-FEB-05                         8          3 Treasurer                             1           
+        11 Susan                Hawthorne            24-APR-06                        10          1 Operations Manager                    1           
+        12 John                 Gooding              14-NOV-07                        11          2 Loan Manager                          1           
+        13 Helen                Fleming              17-MAR-08                        11          1 Head Teller                           1           
+        14 Chris                Tucker               15-SEP-08                        13          1 Teller                                1           
+        15 Sarah                Parker               02-DEC-06                        13          1 Teller                                1           
+        16 Jane                 Grossman             03-MAY-06                        13          1 Teller                                1           
+        17 Paula                Roberts              27-JUL-06                        11          1 Head Teller                           2           
+        18 Thomas               Ziegler              23-OCT-04                        17          1 Teller                                2           
+        19 Samantha             Jameson              08-JAN-07                        17          1 Teller                                2           
+        20 John                 Blake                11-MAY-04                        11          1 Head Teller                           3           
+        21 Cindy                Mason                09-AUG-06                        20          1 Teller                                3           
+        22 Frank                Portman              01-APR-07                        20          1 Teller                                3           
+        23 Theresa              Markham              15-MAR-05                        11          1 Head Teller                           4           
+        24 Beth                 Fowler               29-JUN-06                        23          1 Teller                                4           
+        25 Rick                 Tulman               12-DEC-06                        23          1 Teller                                4           
+
+18 rows selected.
+
+
+FIRST_NAME           LAST_NAME                                                                                                                        
+-------------------- --------------------                                                                                                             
+Michael              Smith                                                                                                                            
+Susan                Barker                                                                                                                           
+Robert               Tyler                                                                                                                            
+Susan                Hawthorne                                                                                                                        
+John                 Gooding                                                                                                                          
+Helen                Fleming                                                                                                                          
+Chris                Tucker                                                                                                                           
+Sarah                Parker                                                                                                                           
+Jane                 Grossman                                                                                                                         
+Paula                Roberts                                                                                                                          
+Thomas               Ziegler                                                                                                                          
+Samantha             Jameson                                                                                                                          
+John                 Blake                                                                                                                            
+Cindy                Mason                                                                                                                            
+Frank                Portman                                                                                                                          
+Theresa              Markham                                                                                                                          
+Beth                 Fowler                                                                                                                           
+Rick                 Tulman                                                                                                                           
+
+18 rows selected.
+
+
+MAX(AVAIL_BALANCE)                                                                                                                                    
+------------------                                                                                                                                    
+           9345.55                                                                                                                                    
+
+
+MIN(AVAIL_BALANCE)                                                                                                                                    
+------------------                                                                                                                                    
+               200                                                                                                                                    
+
+
+AVG(AVAIL_BALANCE)                                                                                                                                    
+------------------                                                                                                                                    
+        3051.61714                                                                                                                                    
+
+
+MAX(AVAIL_BALANCE)                                                                                                                                    
+------------------                                                                                                                                    
+             50000                                                                                                                                    
+
+
+OPEN_BRANCH_ID                                                                                                                                        
+--------------                                                                                                                                        
+             3                                                                                                                                        
+
+SQL> spool off

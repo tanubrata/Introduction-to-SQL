@@ -1,0 +1,309 @@
+SQL> @Homework8_Tanubrata_Dey.sql
+
+COUNT(NAME)                                                                     
+-----------                                                                     
+         68                                                                     
+
+
+        ID NAME                                                                 
+---------- -----------------------------------                                  
+      3864 Jersey City                                                          
+      3865 Norfolk                                                              
+      3867 Hialeah                                                              
+      3869 Greensboro                                                           
+      3871 Rochester                                                            
+      3881 Augusta-Richmond County                                              
+      3883 Chesapeake                                                           
+      3887 Richmond                                                             
+      3888 Yonkers                                                              
+      3895 Durham                                                               
+      3896 Columbus                                                             
+
+        ID NAME                                                                 
+---------- -----------------------------------                                  
+      3897 Orlando                                                              
+      3899 Winston-Salem                                                        
+      3905 Newport News                                                         
+      3909 Arlington                                                            
+      3912 Providence                                                           
+      3914 Worcester                                                            
+      3923 Fort Lauderdale                                                      
+      3924 Springfield                                                          
+      3928 Tallahassee                                                          
+      3932 Paterson                                                             
+      3935 Syracuse                                                             
+
+        ID NAME                                                                 
+---------- -----------------------------------                                  
+      3937 Hampton                                                              
+      3946 Bridgeport                                                           
+      3947 Hollywood                                                            
+      3951 Pembroke Pines                                                       
+      3956 Savannah                                                             
+      4059 Cary                                                                 
+      4061 Fall River                                                           
+      4066 Charleston                                                           
+      3960 Alexandria                                                           
+      3971 New Haven                                                            
+      3975 Hartford                                                             
+
+        ID NAME                                                                 
+---------- -----------------------------------                                  
+      3976 Fayetteville                                                         
+      3978 Elizabeth                                                            
+      3982 Coral Springs                                                        
+      3983 Stamford                                                             
+      3987 Columbia                                                             
+      3994 Macon                                                                
+      4010 Waterbury                                                            
+      4011 Manchester                                                           
+      4015 Lowell                                                               
+      4027 Cape Coral                                                           
+      4031 Athens-Clarke County                                                 
+
+        ID NAME                                                                 
+---------- -----------------------------------                                  
+      4032 Cambridge                                                            
+      4035 Portsmouth                                                           
+      4038 Clearwater                                                           
+      4042 Miami Beach                                                          
+      4044 New Bedford                                                          
+      4048 Albany                                                               
+      4049 Brockton                                                             
+      4050 Roanoke                                                              
+      4053 Gainesville                                                          
+      3806 Jacksonville                                                         
+      3809 Baltimore                                                            
+
+        ID NAME                                                                 
+---------- -----------------------------------                                  
+      3812 Boston                                                               
+      3818 Charlotte                                                            
+      3830 Virginia Beach                                                       
+      3831 Atlanta                                                              
+      3839 Miami                                                                
+      3849 Tampa                                                                
+      3850 Buffalo                                                              
+      3854 Raleigh                                                              
+      3855 Newark                                                               
+      3860 Saint Petersburg                                                     
+
+65 rows selected.
+
+
+CITY                                                                            
+-----------------------------------                                             
+COUNTRY                                                                         
+----------------------------------------------------                            
+Mumbai (Bombay)                                                                 
+India                                                                           
+                                                                                
+Karachi                                                                         
+Pakistan                                                                        
+                                                                                
+
+
+    ANSWER                                                                      
+----------                                                                      
+        13                                                                      
+
+
+CITY                                DISTRICT             COU                    
+----------------------------------- -------------------- ---                    
+Rosario                             Santa Fe             ARG                    
+Santa Cruz de la Sierra             Santa Cruz           BOL                    
+La Paz                              La Paz               BOL                    
+Ciudad de Guatemala                 Guatemala            GTM                    
+Tegucigalpa                         Distrito Central     HND                    
+Naucalpan de Juarez                 Mexico               MEX                    
+Mexicali                            Baja California      MEX                    
+Cartagena                           Bolivar              COL                    
+Managua                             Managua              NIC                    
+Arequipa                            Arequipa             PER                    
+Barquisimeto                        Lara                 VEN                    
+
+CITY                                DISTRICT             COU                    
+----------------------------------- -------------------- ---                    
+Valencia                            Carabobo             VEN                    
+
+12 rows selected.
+
+
+    ANSWER                                                                      
+----------                                                                      
+        37                                                                      
+
+
+CITY                                                                            
+-----------------------------------                                             
+COUNTRY                                                                         
+----------------------------------------------------                            
+Fagatogo                                                                        
+American Samoa                                                                  
+                                                                                
+Canberra                                                                        
+Australia                                                                       
+                                                                                
+West Island                                                                     
+Cocos (Keeling) Islands                                                         
+                                                                                
+
+CITY                                                                            
+-----------------------------------                                             
+COUNTRY                                                                         
+----------------------------------------------------                            
+Avarua                                                                          
+Cook Islands                                                                    
+                                                                                
+Suva                                                                            
+Fiji Islands                                                                    
+                                                                                
+Aga?a                                                                           
+Guam                                                                            
+                                                                                
+
+CITY                                                                            
+-----------------------------------                                             
+COUNTRY                                                                         
+----------------------------------------------------                            
+Flying Fish Cove                                                                
+Christmas Island                                                                
+                                                                                
+Bairiki                                                                         
+Kiribati                                                                        
+                                                                                
+Dalap-Uliga-Darrit                                                              
+Marshall Islands                                                                
+                                                                                
+
+CITY                                                                            
+-----------------------------------                                             
+COUNTRY                                                                         
+----------------------------------------------------                            
+Palikir                                                                         
+Micronesia, Federated States of                                                 
+                                                                                
+Yaren                                                                           
+Nauru                                                                           
+                                                                                
+Alofi                                                                           
+Niue                                                                            
+                                                                                
+
+CITY                                                                            
+-----------------------------------                                             
+COUNTRY                                                                         
+----------------------------------------------------                            
+Kingston                                                                        
+Norfolk Island                                                                  
+                                                                                
+Koror                                                                           
+Palau                                                                           
+                                                                                
+Port Moresby                                                                    
+Papua New Guinea                                                                
+                                                                                
+
+CITY                                                                            
+-----------------------------------                                             
+COUNTRY                                                                         
+----------------------------------------------------                            
+Adamstown                                                                       
+Pitcairn                                                                        
+                                                                                
+Garapan                                                                         
+Northern Mariana Islands                                                        
+                                                                                
+Papeete                                                                         
+French Polynesia                                                                
+                                                                                
+
+CITY                                                                            
+-----------------------------------                                             
+COUNTRY                                                                         
+----------------------------------------------------                            
+Honiara                                                                         
+Solomon Islands                                                                 
+                                                                                
+Apia                                                                            
+Samoa                                                                           
+                                                                                
+Fakaofo                                                                         
+Tokelau                                                                         
+                                                                                
+
+CITY                                                                            
+-----------------------------------                                             
+COUNTRY                                                                         
+----------------------------------------------------                            
+Nuku'alofa                                                                      
+Tonga                                                                           
+                                                                                
+Funafuti                                                                        
+Tuvalu                                                                          
+                                                                                
+Noumea                                                                          
+New Caledonia                                                                   
+                                                                                
+
+CITY                                                                            
+-----------------------------------                                             
+COUNTRY                                                                         
+----------------------------------------------------                            
+Wellington                                                                      
+New Zealand                                                                     
+                                                                                
+Mata-Utu                                                                        
+Wallis and Futuna                                                               
+                                                                                
+Port-Vila                                                                       
+Vanuatu                                                                         
+                                                                                
+
+27 rows selected.
+
+
+GOVERNMENTFORM                                                                  
+---------------------------------------------                                   
+Republic                                                                        
+Dependent Territory of the UK                                                   
+Federal Republic                                                                
+Overseas Department of France                                                   
+
+
+COUNTRY                                              MINIMUM_GNP                
+---------------------------------------------------- -----------                
+Falkland Islands                                               0                
+Christmas Island                                               0                
+Faroe Islands                                                  0                
+Niue                                                           0                
+Saint Pierre and Miquelon                                      0                
+Virgin Islands, U.S.                                           0                
+Wallis and Futuna                                              0                
+British Indian Ocean Territory                                 0                
+Heard Island and McDonald Islands                              0                
+Northern Mariana Islands                                       0                
+Tokelau                                                        0                
+
+COUNTRY                                              MINIMUM_GNP                
+---------------------------------------------------- -----------                
+Bouvet Island                                                  0                
+Cocos (Keeling) Islands                                        0                
+Antarctica                                                     0                
+Greenland                                                      0                
+Saint Helena                                                   0                
+South Georgia and the South Sandwich Islands                   0                
+French Southern territories                                    0                
+United States Minor Outlying Islands                           0                
+Svalbard and Jan Mayen                                         0                
+Mayotte                                                        0                
+Pitcairn                                                       0                
+
+COUNTRY                                              MINIMUM_GNP                
+---------------------------------------------------- -----------                
+East Timor                                                     0                
+Norfolk Island                                                 0                
+
+24 rows selected.
+
+SQL> spool off

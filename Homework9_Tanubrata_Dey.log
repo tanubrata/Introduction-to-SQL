@@ -1,0 +1,268 @@
+SQL> @Homework9_Tanubrata_Dey.sql
+
+   CUST_ID PRODUCT_CD PENDING_BALANCE                                           
+---------- ---------- ---------------                                           
+         1 CHK                1057.75                                           
+         2 CHK                2258.02                                           
+         3 CHK                1057.75                                           
+         4 CHK                 534.12                                           
+         5 CHK                2897.97                                           
+         6 CHK                 122.37                                           
+         8 CHK                3487.19                                           
+         9 CHK                 125.67                                           
+
+8 rows selected.
+
+
+ VENDOR_ID NAME                           STATE_TERRITORY_PROVINCE              
+---------- ------------------------------ ------------------------------        
+COUNT(C.PRODUCT_ID)                                                             
+-------------------                                                             
+        29 Supplies R Us                  Utah                                  
+                  5                                                             
+                                                                                
+         4 Haagen Daz                     Alabama                               
+                  3                                                             
+                                                                                
+        16 SPAM                           Florida                               
+                  2                                                             
+                                                                                
+
+ VENDOR_ID NAME                           STATE_TERRITORY_PROVINCE              
+---------- ------------------------------ ------------------------------        
+COUNT(C.PRODUCT_ID)                                                             
+-------------------                                                             
+        18 Wonder inc                     New York                              
+                  3                                                             
+                                                                                
+        19 Puff                           Texas                                 
+                  5                                                             
+                                                                                
+        20 Hershey                        Ohio                                  
+                  3                                                             
+                                                                                
+
+ VENDOR_ID NAME                           STATE_TERRITORY_PROVINCE              
+---------- ------------------------------ ------------------------------        
+COUNT(C.PRODUCT_ID)                                                             
+-------------------                                                             
+        30 We Make Pizza                  Alaska                                
+                  2                                                             
+                                                                                
+        36 Taste Treat                    New York                              
+                  3                                                             
+                                                                                
+        26 Beer Inc                       Nevada                                
+                  4                                                             
+                                                                                
+
+ VENDOR_ID NAME                           STATE_TERRITORY_PROVINCE              
+---------- ------------------------------ ------------------------------        
+COUNT(C.PRODUCT_ID)                                                             
+-------------------                                                             
+        33 Drinks R Us                    Illinois                              
+                  1                                                             
+                                                                                
+         1 Moo Moo Milk Farm              Kentucky                              
+                  4                                                             
+                                                                                
+         6 Sailor Bob                     New York                              
+                  3                                                             
+                                                                                
+
+ VENDOR_ID NAME                           STATE_TERRITORY_PROVINCE              
+---------- ------------------------------ ------------------------------        
+COUNT(C.PRODUCT_ID)                                                             
+-------------------                                                             
+        17 Wellness                       Florida                               
+                  2                                                             
+                                                                                
+        31 Cheese Cake Factory            Nevada                                
+                  2                                                             
+                                                                                
+         5 Butcher Mat                    Washington                            
+                  3                                                             
+                                                                                
+
+ VENDOR_ID NAME                           STATE_TERRITORY_PROVINCE              
+---------- ------------------------------ ------------------------------        
+COUNT(C.PRODUCT_ID)                                                             
+-------------------                                                             
+        14 Wash Shampoo Inc               Georgia                               
+                  4                                                             
+                                                                                
+        21 Wily Wonka                     Idaho                                 
+                  4                                                             
+                                                                                
+        24 Huntz                          New York                              
+                  4                                                             
+                                                                                
+
+ VENDOR_ID NAME                           STATE_TERRITORY_PROVINCE              
+---------- ------------------------------ ------------------------------        
+COUNT(C.PRODUCT_ID)                                                             
+-------------------                                                             
+        27 Camel                          Nevada                                
+                  3                                                             
+                                                                                
+        34 Poland Spring                  Illinois                              
+                  1                                                             
+                                                                                
+        35 Jungle Man                     Illinois                              
+                  1                                                             
+                                                                                
+
+ VENDOR_ID NAME                           STATE_TERRITORY_PROVINCE              
+---------- ------------------------------ ------------------------------        
+COUNT(C.PRODUCT_ID)                                                             
+-------------------                                                             
+         8 Orgo Home Farm                 Michigan                              
+                  3                                                             
+                                                                                
+        10 Dawn                           Texas                                 
+                  2                                                             
+                                                                                
+        13 Clean Me Please                Alaska                                
+                  5                                                             
+                                                                                
+
+ VENDOR_ID NAME                           STATE_TERRITORY_PROVINCE              
+---------- ------------------------------ ------------------------------        
+COUNT(C.PRODUCT_ID)                                                             
+-------------------                                                             
+        22 Bake Me Inc                    Idaho                                 
+                  5                                                             
+                                                                                
+        37 Crunchy                        New York                              
+                  2                                                             
+                                                                                
+         7 Monkey Paradise                Michigan                              
+                  6                                                             
+                                                                                
+
+ VENDOR_ID NAME                           STATE_TERRITORY_PROVINCE              
+---------- ------------------------------ ------------------------------        
+COUNT(C.PRODUCT_ID)                                                             
+-------------------                                                             
+         9 Soda Forever                   Washington                            
+                  4                                                             
+                                                                                
+        15 Oral Care Inc                  Texas                                 
+                  2                                                             
+                                                                                
+
+29 rows selected.
+
+
+NAME                                                          MIN(TMP.BAL)      
+------------------------------------------------------------- ------------      
+AAA Insurance Inc.                                                   50000      
+Charles Frasier                                                    2237.97      
+Chilton Engineering                                                      0      
+Frank Tucker                                                       1057.75      
+James Hadley                                                           500      
+John Hayward                                                        534.12      
+John Spencer                                                        122.37      
+Louis Blake                                                         387.99      
+Margaret Young                                                        5000      
+Northeast Cooling Inc.                                             9345.55      
+Richard Farley                                                      125.67      
+
+NAME                                                          MIN(TMP.BAL)      
+------------------------------------------------------------- ------------      
+Superior Auto Body                                                38552.05      
+Susan Tingley                                                          200      
+                                                                         0      
+
+14 rows selected.
+
+
+COD NAME                                                 COUNT(L.LANGUAGE)      
+--- ---------------------------------------------------- -----------------      
+ZAF South Africa                                                         4      
+CHE Switzerland                                                          4      
+
+
+NUM_LANGUAGE NUM_COUNTRY                                                        
+------------ -----------                                                        
+           1         152                                                        
+           2          30                                                        
+           4           2                                                        
+           3           6                                                        
+
+
+NAME                                COU                                         
+----------------------------------- ---                                         
+London                              GBR                                         
+Sydney                              AUS                                         
+New York                            USA                                         
+Los Angeles                         USA                                         
+
+
+CONTINENT                                                                       
+--------------------------------------------------------------------------------
+COUNT(A.NAME) SUM(A.POPULATION)                                                 
+------------- -----------------                                                 
+South America                                                                   
+            5          32996947                                                 
+                                                                                
+Asia                                                                            
+           30         171853067                                                 
+                                                                                
+
+
+CITY                                                                            
+-----------------------------------                                             
+COUNTRY                                              LANGUAGE_NUM               
+---------------------------------------------------- ------------               
+Seoul                                                                           
+South Korea                                                     2               
+                                                                                
+Pusan                                                                           
+South Korea                                                     2               
+                                                                                
+Cairo                                                                           
+Egypt                                                           2               
+                                                                                
+
+CITY                                                                            
+-----------------------------------                                             
+COUNTRY                                              LANGUAGE_NUM               
+---------------------------------------------------- ------------               
+Alexandria                                                                      
+Egypt                                                           2               
+                                                                                
+Riyadh                                                                          
+Saudi Arabia                                                    1               
+                                                                                
+
+
+COUNTRY                                              NUMBER_OF_LANGUAGE         
+---------------------------------------------------- ------------------         
+Philippines                                                          10         
+Sudan                                                                10         
+Iran                                                                 10         
+Congo, The Democratic Republic of the                                10         
+Nigeria                                                              10         
+Mozambique                                                           10         
+Kenya                                                                10         
+Uganda                                                               10         
+South Africa                                                         11         
+Tanzania                                                             11         
+United States                                                        12         
+
+COUNTRY                                              NUMBER_OF_LANGUAGE         
+---------------------------------------------------- ------------------         
+Canada                                                               12         
+India                                                                12         
+Russian Federation                                                   12         
+China                                                                12         
+
+15 rows selected.
+
+
+COUNTRY                                              AVG_POPULATION             
+---------------------------------------------------- --------------             
+Singapore                                                   4017733             
+
+SQL> spool off

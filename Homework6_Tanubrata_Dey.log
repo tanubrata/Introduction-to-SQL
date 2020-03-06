@@ -1,0 +1,32 @@
+SQL> @Homework6_Tanubrata_Dey.sql
+
+STORE_NAME         STORE_ID                                                                                                                                                                                                                                                                                 
+---------------- ----------                                                                                                                                                                                                                                                                                 
+Manhattan 3               3                                                                                                                                                                                                                                                                                 
+
+
+FULL_NAME                                                                                                                                                                                                                                                                                                   
+---------------------------------                                                                                                                                                                                                                                                                           
+Jacob Jones                                                                                                                                                                                                                                                                                                 
+
+
+CONTACT_NAME         CONTACT_PHON                                                                                                                                                                                                                                                                           
+-------------------- ------------                                                                                                                                                                                                                                                                           
+Randall Joe          221-312-3355                                                                                                                                                                                                                                                                           
+
+
+NAME                 EXPECTED_ ACTUAL_AR                                                                                                                                                                                                                                                                    
+-------------------- --------- ---------                                                                                                                                                                                                                                                                    
+purple banana        20-NOV-10                                                                                                                                                                                                                                                                              
+
+
+FULL_NAME                                                                                                                                                                                                                                                                                                   
+---------------------------------                                                                                                                                                                                                                                                                           
+Sally Jones                                                                                                                                                                                                                                                                                                 
+
+
+ESSN                                                                                                                                                                                                                                                                                                        
+---------                                                                                                                                                                                                                                                                                                   
+111111111                                                                                                                                                                                                                                                                                                   
+
+SQL> spool off
